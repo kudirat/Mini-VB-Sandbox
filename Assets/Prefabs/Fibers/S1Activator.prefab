@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &102628227030768112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8579417286606673288}
+  - component: {fileID: 7016288150148828772}
+  - component: {fileID: 8733981231187687964}
+  - component: {fileID: 2337572636668844009}
+  - component: {fileID: 5087432096299105372}
+  m_Layer: 0
+  m_Name: S1Activator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8579417286606673288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102628227030768112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7016288150148828772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102628227030768112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ef8e5587349254cb54964a564bf5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _path: {fileID: 0}
+  _position: 1
+  _rotate: 010101
+  _lockWorldPosition: 0
+  _savedWorldPosition: {x: -0.227204, y: -8.175598, z: 17.106445}
+  _rotateOnStart: 0
+--- !u!114 &8733981231187687964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102628227030768112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f3fc0e8a99a814b9ea32d5cbd66a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 3
+  Color: {r: 1, g: 0.5120404, b: 0, a: 1}
+  Size: 1
+  UseWorldScale: 1
+  DrawMode: 2
+  LineStart: {x: 0, y: 0, z: 0}
+  LineEnd: {x: 0, y: 0, z: 1}
+  FrustumFOV: 60
+  FrustumMaxRange: 1
+  FrustumMinRange: 0.1
+  FrustumAspect: 1
+  IconFilename: 
+  IconAllowScaling: 1
+  TextureRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  Texture: {fileID: 0}
+  TextureMaterial: {fileID: 0}
+  TextureLeftBorder: 0
+  TextureRightBorder: 0
+  TextureTopBorder: 0
+  TextureBottomBorder: 0
+  Mesh: {fileID: 0}
+  MeshPosition: {x: 0, y: 0, z: 0}
+  MeshRotation: {x: 0, y: 0, z: 0}
+  MeshScale: {x: 1, y: 1, z: 1}
+--- !u!114 &2337572636668844009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102628227030768112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307c885df0a8e2e428f808ccb57434a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pathPosition: {fileID: 7016288150148828772}
+  _onTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5087432096299105372}
+        m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!320 &5087432096299105372
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102628227030768112}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 3b0998d600e07cb44a7ac3bd66136d93, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -8496106843689687952, guid: 3b0998d600e07cb44a7ac3bd66136d93, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8137bb603dc80042bfffa54310c9cee, type: 3}
+  m_Name: Lesson
+  m_EditorClassIdentifier: 
+  _stationMode: 1
+  _stopAtStations: 1
+  _closedCaptionsMode: 0
+  _closedCaptionsDisplayMode: 0
+  _handClosedCaptionsTag: HandClosedCaptions
+  _captionsFadeTime: 2
+  _freezePlayerEvent: {fileID: 11400000, guid: dcdd7ac89d9e5f64b8c8e16bbec41e53, type: 2}
+  MenuOpenedEvent: {fileID: 0}
+  MenuClosedEvent: {fileID: 0}
+  StationSettingsChangedEvent: {fileID: 11400000, guid: 8e93fd6e12ff62b4fa4dde5b01b676a1,
+    type: 2}

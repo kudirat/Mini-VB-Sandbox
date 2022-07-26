@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9683a22fda7df4647a4ab294ac406151, type: 3}
+  m_Name: TMProMobileDistanceField
+  m_EditorClassIdentifier: 
+  _sourceShader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+  _colorProperties:
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _FaceColor
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _OutlineColor
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _UnderlayColor
+  _floatProperties:
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _FaceDilate
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _OutlineWidth
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _OutlineSoftness
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _UnderlayOffsetX
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _UnderlayOffsetY
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _UnderlayDilate
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _UnderlaySoftness
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _WeightNormal
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _WeightBold
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _ShaderFlags
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _ScaleRatioA
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _ScaleRatioB
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _ScaleRatioC
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _TextureWidth
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _TextureHeight
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _GradientScale
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _ScaleX
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _ScaleY
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _PerspectiveFilter
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _Sharpness
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _VertexOffsetX
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _VertexOffsetY
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _MaskSoftnessX
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _MaskSoftnessY
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _StencilComp
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _Stencil
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _StencilOp
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _StencilWriteMask
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _StencilReadMask
+    _isEnum: 0
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _ColorMask
+    _isEnum: 0
+  _vectorProperties:
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _ClipRect
+  _textureProperties:
+  - _shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    _name: _MainTex

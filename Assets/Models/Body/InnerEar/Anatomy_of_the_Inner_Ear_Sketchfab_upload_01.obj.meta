@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 646ee038d0c342447a5ad637ae733da5
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: choclea_and_vestibular_apparatus_right_inner_ear
+  - first:
+      1: 100004
+    second: pPlane1
+  - first:
+      1: 100006
+    second: pPlane3
+  - first:
+      1: 100008
+    second: right_inner_ear_Cochlea_Nerve
+  - first:
+      1: 100010
+    second: right_inner_ear_Incus
+  - first:
+      1: 100012
+    second: right_inner_ear_malleus
+  - first:
+      1: 100014
+    second: right_inner_ear_pCube9
+  - first:
+      1: 100016
+    second: right_inner_ear_stapes
+  - first:
+      1: 100018
+    second: right_inner_ear_tympanic_membrane
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: choclea_and_vestibular_apparatus_right_inner_ear
+  - first:
+      4: 400004
+    second: pPlane1
+  - first:
+      4: 400006
+    second: pPlane3
+  - first:
+      4: 400008
+    second: right_inner_ear_Cochlea_Nerve
+  - first:
+      4: 400010
+    second: right_inner_ear_Incus
+  - first:
+      4: 400012
+    second: right_inner_ear_malleus
+  - first:
+      4: 400014
+    second: right_inner_ear_pCube9
+  - first:
+      4: 400016
+    second: right_inner_ear_stapes
+  - first:
+      4: 400018
+    second: right_inner_ear_tympanic_membrane
+  - first:
+      21: 2100000
+    second: choclea_and_vestibular_apparatus_right_inner_earMat
+  - first:
+      21: 2100002
+    second: pPlane1Mat
+  - first:
+      21: 2100004
+    second: pPlane3Mat
+  - first:
+      21: 2100006
+    second: right_inner_ear_Cochlea_NerveMat
+  - first:
+      21: 2100008
+    second: right_inner_ear_IncusMat
+  - first:
+      21: 2100010
+    second: right_inner_ear_malleusMat
+  - first:
+      21: 2100012
+    second: right_inner_ear_pCube9Mat
+  - first:
+      21: 2100014
+    second: right_inner_ear_stapesMat
+  - first:
+      21: 2100016
+    second: right_inner_ear_tympanic_membraneMat
+  - first:
+      23: 2300000
+    second: choclea_and_vestibular_apparatus_right_inner_ear
+  - first:
+      23: 2300002
+    second: pPlane1
+  - first:
+      23: 2300004
+    second: pPlane3
+  - first:
+      23: 2300006
+    second: right_inner_ear_Cochlea_Nerve
+  - first:
+      23: 2300008
+    second: right_inner_ear_Incus
+  - first:
+      23: 2300010
+    second: right_inner_ear_malleus
+  - first:
+      23: 2300012
+    second: right_inner_ear_pCube9
+  - first:
+      23: 2300014
+    second: right_inner_ear_stapes
+  - first:
+      23: 2300016
+    second: right_inner_ear_tympanic_membrane
+  - first:
+      33: 3300000
+    second: choclea_and_vestibular_apparatus_right_inner_ear
+  - first:
+      33: 3300002
+    second: pPlane1
+  - first:
+      33: 3300004
+    second: pPlane3
+  - first:
+      33: 3300006
+    second: right_inner_ear_Cochlea_Nerve
+  - first:
+      33: 3300008
+    second: right_inner_ear_Incus
+  - first:
+      33: 3300010
+    second: right_inner_ear_malleus
+  - first:
+      33: 3300012
+    second: right_inner_ear_pCube9
+  - first:
+      33: 3300014
+    second: right_inner_ear_stapes
+  - first:
+      33: 3300016
+    second: right_inner_ear_tympanic_membrane
+  - first:
+      43: 4300000
+    second: choclea_and_vestibular_apparatus_right_inner_ear
+  - first:
+      43: 4300002
+    second: pPlane1
+  - first:
+      43: 4300004
+    second: pPlane3
+  - first:
+      43: 4300006
+    second: right_inner_ear_Cochlea_Nerve
+  - first:
+      43: 4300008
+    second: right_inner_ear_Incus
+  - first:
+      43: 4300010
+    second: right_inner_ear_malleus
+  - first:
+      43: 4300012
+    second: right_inner_ear_pCube9
+  - first:
+      43: 4300014
+    second: right_inner_ear_stapes
+  - first:
+      43: 4300016
+    second: right_inner_ear_tympanic_membrane
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: choclea_and_vestibular_apparatus_right_inner_earMat
+    second: {fileID: 2100000, guid: 369195bec58d68a45820970cd5a8c1be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPlane1Mat
+    second: {fileID: 2100000, guid: 3af1279507cbd3c4184401a7f481c0d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPlane3Mat
+    second: {fileID: 2100000, guid: 82ae65889b1c2ad4080ac27bef0be646, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: right_inner_ear_Cochlea_NerveMat
+    second: {fileID: 2100000, guid: e68b2087cad9e9447b943b1b9531c681, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: right_inner_ear_IncusMat
+    second: {fileID: 2100000, guid: a0d5adc80ca3e2a4d8e62f3fce35f916, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: right_inner_ear_malleusMat
+    second: {fileID: 2100000, guid: a572416fd11d5a7459f9cf83f6065d63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: right_inner_ear_pCube9Mat
+    second: {fileID: 2100000, guid: 34437a11f116fc3499768b55e69a9e53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: right_inner_ear_stapesMat
+    second: {fileID: 2100000, guid: bf0c8659891994a41849afedcbfda8fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: right_inner_ear_tympanic_membraneMat
+    second: {fileID: 2100000, guid: 318664373f81bee49adb24b6d8a595c8, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

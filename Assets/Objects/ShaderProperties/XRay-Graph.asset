@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9683a22fda7df4647a4ab294ac406151, type: 3}
+  m_Name: XRay-Graph
+  m_EditorClassIdentifier: 
+  _sourceShader: {fileID: -6465566751694194690, guid: d73e724126e9ce34baec6989645ed274,
+    type: 3}
+  _colorProperties:
+  - _shader: {fileID: -6465566751694194690, guid: d73e724126e9ce34baec6989645ed274,
+      type: 3}
+    _name: _MainColor
+  - _shader: {fileID: -6465566751694194690, guid: d73e724126e9ce34baec6989645ed274,
+      type: 3}
+    _name: _SecondaryColor
+  _floatProperties:
+  - _shader: {fileID: -6465566751694194690, guid: d73e724126e9ce34baec6989645ed274,
+      type: 3}
+    _name: _Blend
+    _isEnum: 0
+  - _shader: {fileID: -6465566751694194690, guid: d73e724126e9ce34baec6989645ed274,
+      type: 3}
+    _name: _Fade
+    _isEnum: 0
+  - _shader: {fileID: -6465566751694194690, guid: d73e724126e9ce34baec6989645ed274,
+      type: 3}
+    _name: _FadeoutDistance
+    _isEnum: 0
+  - _shader: {fileID: -6465566751694194690, guid: d73e724126e9ce34baec6989645ed274,
+      type: 3}
+    _name: _FadeoutRange
+    _isEnum: 0
+  - _shader: {fileID: -6465566751694194690, guid: d73e724126e9ce34baec6989645ed274,
+      type: 3}
+    _name: _MinimumOpacity
+    _isEnum: 0
+  _vectorProperties: []
+  _textureProperties: []

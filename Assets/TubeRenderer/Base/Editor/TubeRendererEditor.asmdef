@@ -1,0 +1,17 @@
+{
+    "name": "TubeRendererEditor",
+    "references": [
+        "GUID:62f83a638b7659743be1ca6b192fd94c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
